@@ -158,7 +158,7 @@ public class AdvancedRouteFinder extends RouteFinder{
 	}
 
 	private double heuristic(Vector3 one, Vector3 two){
-		return Math.abs(one.x - two.x) + Math.abs(one.y - two.y);
+		return Math.abs(one.x - two.x) + Math.abs(one.z - two.z);
 	}
 
 	@Override
